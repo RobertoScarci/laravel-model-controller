@@ -1,1 +1,41 @@
-@import "~bootstrap/scss/bootstrap";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(119, 118, 118);
+    color: white;
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+}
+
+nav,
+footer{
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 2rem 0;
+    background-color: chocolate;
+}
+
+.card{
+    border: 1px solid blue;
+    padding: 4rem;
+    background: url(https://img.freepik.com/free-photo/movie-background-collage_23-2149876003.jpg);
+}
+
+h5{
+    font-size: 25px;
+}
+
+h6{
+    font-size: 18px;
+}
+
+li{
+    list-style-type: none;
+    margin: .5rem;
+}
